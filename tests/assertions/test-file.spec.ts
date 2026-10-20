@@ -5,6 +5,7 @@ test("Check Element Text", async ({ page }) => {
   await page.goto("https://selectors-practice.onrender.com/");
 
   // Verify the text content of the paragraph in the Text Section
+
   const textSectionParagraph = await page
     .locator("#textParagraph")
     .textContent();
@@ -14,6 +15,6 @@ test("Check Element Text", async ({ page }) => {
   expect(textSectionParagraph).toContain("sample text");
 });
 
-// This is a test
+// This is a test ++++
 
 // This is another test. ++++++ This a merge conflict comment
