@@ -17,5 +17,3 @@ test("Check Element Text", async ({ page }) => {
 // This is a test
 
 // This is another test.
-
-// another line 22 comment
